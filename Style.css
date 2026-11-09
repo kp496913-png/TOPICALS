@@ -1,0 +1,125 @@
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    color: white;
+    font-family: "adorn-smooth-serif", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/* background */
+body{
+    background-color: rgb( 199,2,24);
+    text-decoration: none;
+}
+
+#navigation{
+   
+    text-decoration: none;
+}
+
+/*====== Layout ========*/ 
+
+
+#navigation {
+    display: flex;
+  justify-content: space-between;
+  gap: 10px;
+    font-family: "adorn-smooth-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+#navigation div{
+   padding-bottom: 5px; 
+}
+footer{
+   background-image: url(footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+#new-arrival{
+     display: grid;
+    align-content: center;
+    justify-content: center;
+    background-image: url(New-arrival.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: rgb(255, 145, 178)
+   
+}
+
+.button-link{
+  background-color: rgb(252,146,178);
+  color: rgb( 174,10,73);
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-decoration: none;
+  
+}
+#font{
+    background-image: url(fontpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.learn{
+    background-color: rgb(239, 70, 115);
+}
+#most-popular{
+     display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 5px;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    width: 1000px;
+}
+/*box model */
+#product-explore1{
+    background-image: url(Main1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    margin-right: 20px;
+}
+#learn-explore2{
+    background-image: url(Main2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    margin-left: 20px;
+}
+button{
+   background-color: rgb( 174,10,73);
+   color: rgb(252,146,178);
+   border: none;
+   text-decoration: none;
+   
+}
